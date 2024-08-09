@@ -1,0 +1,1 @@
+(program (classDefine class Main { (feature main ( ) : IO { (expr (expr new IO) . out_string ( (expr "Hello world!\n") )) }) ; } ;))

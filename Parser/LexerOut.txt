@@ -1,0 +1,80 @@
+Line: 1
+TokenType: CLASS
+Token: class
+
+Line: 1
+TokenType: CLASSTYPE
+Token: Main
+
+Line: 1
+TokenType: OPENBRACE
+Token: {
+
+Line: 2
+TokenType: ID
+Token: main
+
+Line: 2
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 2
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 2
+TokenType: COLON
+Token: :
+
+Line: 2
+TokenType: CLASSTYPE
+Token: IO
+
+Line: 2
+TokenType: OPENBRACE
+Token: {
+
+Line: 3
+TokenType: NEW
+Token: new
+
+Line: 3
+TokenType: CLASSTYPE
+Token: IO
+
+Line: 3
+TokenType: DOT
+Token: .
+
+Line: 3
+TokenType: ID
+Token: out_string
+
+Line: 3
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 3
+TokenType: STRING
+Token: "Hello world!\n"
+
+Line: 3
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 4
+TokenType: CLOSEBRACE
+Token: }
+
+Line: 4
+TokenType: SEMICOLON
+Token: ;
+
+Line: 5
+TokenType: CLOSEBRACE
+Token: }
+
+Line: 5
+TokenType: SEMICOLON
+Token: ;
+

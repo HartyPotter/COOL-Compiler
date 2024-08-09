@@ -1,0 +1,356 @@
+Line: 1
+TokenType: CLASS
+Token: class
+
+Line: 1
+TokenType: CLASSTYPE
+Token: Main
+
+Line: 1
+TokenType: INHERITS
+Token: inherits
+
+Line: 1
+TokenType: CLASSTYPE
+Token: IO
+
+Line: 1
+TokenType: OPENBRACE
+Token: {
+
+Line: 2
+TokenType: ID
+Token: main
+
+Line: 2
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 2
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 2
+TokenType: COLON
+Token: :
+
+Line: 2
+TokenType: CLASSTYPE
+Token: Object
+
+Line: 2
+TokenType: OPENBRACE
+Token: {
+
+Line: 2
+TokenType: OPENBRACE
+Token: {
+
+Line: 3
+TokenType: ID
+Token: out_string
+
+Line: 3
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 3
+TokenType: STRING
+Token: "Enter an integer greater-than or equal-to 0: "
+
+Line: 3
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 3
+TokenType: SEMICOLON
+Token: ;
+
+Line: 5
+TokenType: LET
+Token: let
+
+Line: 5
+TokenType: ID
+Token: input
+
+Line: 5
+TokenType: COLON
+Token: :
+
+Line: 5
+TokenType: CLASSTYPE
+Token: Int
+
+Line: 5
+TokenType: ASSIGN
+Token: <-
+
+Line: 5
+TokenType: ID
+Token: in_int
+
+Line: 5
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 5
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 5
+TokenType: IN
+Token: in
+
+Line: 6
+TokenType: IF
+Token: if
+
+Line: 6
+TokenType: ID
+Token: input
+
+Line: 6
+TokenType: LT
+Token: <
+
+Line: 6
+TokenType: NUM
+Token: 0
+
+Line: 6
+TokenType: THEN
+Token: then
+
+Line: 7
+TokenType: ID
+Token: out_string
+
+Line: 7
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 7
+TokenType: STRING
+Token: "ERROR: Number must be greater-than or equal-to 0\n"
+
+Line: 7
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 8
+TokenType: ELSE
+Token: else
+
+Line: 8
+TokenType: OPENBRACE
+Token: {
+
+Line: 9
+TokenType: ID
+Token: out_string
+
+Line: 9
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 9
+TokenType: STRING
+Token: "The factorial of "
+
+Line: 9
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 9
+TokenType: DOT
+Token: .
+
+Line: 9
+TokenType: ID
+Token: out_int
+
+Line: 9
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 9
+TokenType: ID
+Token: input
+
+Line: 9
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 9
+TokenType: SEMICOLON
+Token: ;
+
+Line: 10
+TokenType: ID
+Token: out_string
+
+Line: 10
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 10
+TokenType: STRING
+Token: " is "
+
+Line: 10
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 10
+TokenType: DOT
+Token: .
+
+Line: 10
+TokenType: ID
+Token: out_int
+
+Line: 10
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 10
+TokenType: ID
+Token: factorial
+
+Line: 10
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 10
+TokenType: ID
+Token: input
+
+Line: 10
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 10
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 10
+TokenType: SEMICOLON
+Token: ;
+
+Line: 11
+TokenType: ID
+Token: out_string
+
+Line: 11
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 11
+TokenType: STRING
+Token: "\n"
+
+Line: 11
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 11
+TokenType: SEMICOLON
+Token: ;
+
+Line: 12
+TokenType: CLOSEBRACE
+Token: }
+
+Line: 13
+TokenType: FI
+Token: fi
+
+Line: 13
+TokenType: SEMICOLON
+Token: ;
+
+Line: 14
+TokenType: CLOSEBRACE
+Token: }
+
+Line: 14
+TokenType: CLOSEBRACE
+Token: }
+
+Line: 14
+TokenType: SEMICOLON
+Token: ;
+
+Line: 16
+TokenType: ID
+Token: factorial
+
+Line: 16
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 16
+TokenType: ID
+Token: num
+
+Line: 16
+TokenType: COLON
+Token: :
+
+Line: 16
+TokenType: CLASSTYPE
+Token: Int
+
+Line: 16
+TokenType: CLOSEPARENTHESES
+Token: )
+
+Line: 16
+TokenType: COLON
+Token: :
+
+Line: 16
+TokenType: CLASSTYPE
+Token: Int
+
+Line: 16
+TokenType: OPENBRACE
+Token: {
+
+Line: 17
+TokenType: ID
+Token: i
+
+Line: 17
+TokenType: COLON
+Token: :
+
+Line: 17
+TokenType: CLASSTYPE
+Token: Int
+
+Line: 17
+TokenType: ASSIGN
+Token: <-
+
+Line: 17
+TokenType: NUM
+Token: 1
+
+Line: 17
+TokenType: SEMICOLON
+Token: ;
+
+Line: 18
+TokenType: WHILE
+Token: while
+
+Line: 18
+TokenType: OPENPARENTHESES
+Token: (
+
+Line: 18
+TokenType: ID
+Token: num
+
